@@ -1,0 +1,17 @@
+走向平衡｜交互论文解读
+
+打开方式：双击 index.html，用浏览器打开。无需安装、无需联网。
+请保留 assets 文件夹、style.css、app.js 与 index.html 的相对位置。
+
+内容：
+1. 论文三物种反应的五组初值与自定义配比；可播放、暂停、拖动时间轴。
+2. 浓度相图、浓度曲线、自由能对数曲线，以及原文 Figure 1。
+3. 原文全部编号公式 (2.1)–(3.8) 和关键证明公式，共 19 张可搜索卡片。
+4. 四步证明的可切换说明与概念示意。
+5. 真实化学补充示例：2NO2 ⇌ N2O4。参数为无量纲教学值，非实验数据。
+
+数学图形以 SVG 实现。三物种曲线用四阶 Runge–Kutta 独立重算；真实化学例子采用教学模型解析解。
+数值模拟仅辅助理解，不代替证明。几何屏障插图为概念示意。
+
+来源：Global Convergence of Detailed Balanced Mass Action Systems，Haoran Lv 等，2026。原始 PDF 副本在 assets/paper.pdf；Figure 1 图像从该 PDF 提取。
+数学排版使用 KaTeX 0.16.11，MIT 许可证见 assets/katex/LICENSE。
